@@ -1,0 +1,45 @@
+html, body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+#pageWrapper
+{   
+    Width:100%;
+    min-height: 800px;
+
+}
+
+#div1 {
+    background-color:lightgray;
+    width:100%;
+    min-height: 800px;
+    text-align: center;
+}
+
+
+.navigointi
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+    background-color: none;
+    height:80px;
+}
+.linkki
+{
+    float: left;
+    font-size: 1.6em;
+    font-family: sans-serif;
+}
+.palkki
+{   
+    color: black;
+    display: block;
+    padding: 30px 40px;
+    text-decoration: none;
+    text-align: center;
+}
+.palkki:hover{color:gray;}
