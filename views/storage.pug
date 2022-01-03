@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+    body.container
+        h1='Varastosaldo:'
+        ul
+            each item in items 
+                li
+                    p=item.name +', '+ item.amount +', '+ item.description + ', '+ item.location
+                    a(href='/remove/'+ item._id) Poista tuote varastosaldolta
+                    br
+                    br
+        a(href='/addstorageitem') Lisää uusi tuote varastoon
+        br
+        a(href='/') Takaisin aloitussivulle
+        

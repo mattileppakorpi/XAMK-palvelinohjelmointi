@@ -1,0 +1,26 @@
+doctype html
+| 
+html
+head
+  meta(charset='utf-8')
+  meta(name='author' content='Matti Leppäkorpi')
+  link(rel='stylesheet' type='text/css' href='../static/styles.css')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+#pageWrapper
+  #div1
+    h1
+      | Oy Yhtymä Ab
+    h3
+      | Näiltä sivuilta voit hallinnoida Oy Yhtymä Ab:n varastoja ja tarkastaa ulkolämpötilan.
+    div(id='navig.')
+      ul.navigointi
+        li.linkki
+          a.palkki(href='http://localhost:3000/storage') Tarkastele koko varastosaldoa
+        li.linkki
+          a.palkki(href='http://localhost:3000/jyvaskyla') Jyväskylä
+        li.linkki
+          a.palkki(href='http://localhost:3000/oulu') Oulu
+        li.linkki
+          a.palkki(href='http://localhost:3000/tampere') Tampere
+        li.linkki
+          a.palkki(href='http://localhost:3000/addstorageitem') Lisää tuote varastoon
