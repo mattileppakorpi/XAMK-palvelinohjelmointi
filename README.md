@@ -13,3 +13,4 @@ router.use('/static', express.static(path.join(__dirname, '..', 'static')));
 Taidot loppuivat siihen kun yritin keksiä miten location-tiedon voisi antaa valmiista vaihtoehdoista 
 käyttäjälle <select>-tagilla. Tämän avulla olisin ehkä voinut keksiä konstin myös varastojen sorttaamisen
 kaupungeittain. Nyt tuo kaupunkikohtainen varastosaldo näyttää koko varaston.
+[]()
