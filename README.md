@@ -11,8 +11,7 @@ Tein aluksi etusivun html-muotoon, mutta muutin sen pugiksi netistä löytyneen 
 tiedoston kanssa meinasi olla ongelmia kunnes sain siihen apua ja lisäsin routes.js tiedostoon 
 router.use('/static', express.static(path.join(__dirname, '..', 'static'))); 
 
-Taidot loppuivat siihen kun yritin keksiä miten location-tiedon voisi antaa valmiista vaihtoehdoista 
-käyttäjälle select-tagilla. Tämän avulla olisin ehkä voinut keksiä konstin myös varastojen sorttaamisen
+Sovellukseen olisi voinut lisätä myös varastojen sorttaamisen
 kaupungeittain. Nyt tuo kaupunkikohtainen varastosaldo näyttää koko varaston.
 
 <img src="kuvat/kuva1.PNG" width="700" />
