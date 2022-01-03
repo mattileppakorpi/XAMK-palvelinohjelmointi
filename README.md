@@ -15,7 +15,7 @@ käyttäjälle <select>-tagilla. Tämän avulla olisin ehkä voinut keksiä kons
 kaupungeittain. Nyt tuo kaupunkikohtainen varastosaldo näyttää koko varaston.
 
 <img src="kuvat/kuva1.PNG" width="700" />
-<img src="kuvat/kuva2.PNG" width="700" />
-<img src="kuvat/kuva3.PNG" width="700" />
-<img src="kuvat/kuva4.PNG" width="700" />
-<img src="kuvat/kuva5.PNG" width="700" />
+<img src="kuvat/kuva2.PNG" width="300" />
+<img src="kuvat/kuva3.PNG" width="300" />
+<img src="kuvat/kuva4.PNG" width="600" />
+<img src="kuvat/kuva5.PNG" width="600" />
