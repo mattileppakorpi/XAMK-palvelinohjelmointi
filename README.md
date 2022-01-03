@@ -2,6 +2,7 @@
 
 16.6.2019
 Matti Leppäkorpi 20h.
+
 Tein palvelimen jonne voi lisätä kolmessa eri kaupungissa toimivan 
 Oy Yhtymä Ab:n varastosaldolle uusia asioita ja hakea varastosaldot, sekä poistaa asioita varastosalolta.
 Tämän lisäksi sivustolta näkee kaupunkikohtaisen viimeisimmän lämpötilan.
